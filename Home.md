@@ -1,11 +1,17 @@
 # Mission Statement
-### example text
+## example text  
+  
+
 # Expected Users
-## example text
+### example text  
+  
+
 # Why system is usefull/needed
-## example text
-# 
+### example text  
+
 # Project Concept Statement
-## example text
+## example text  
+
+
 # Client Information
-## example text
+### example text  
