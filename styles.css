@@ -26,7 +26,7 @@ title {
     text-align: center;
 }
 
-/*
+
 .wrapper {
     max-width: 650px;
     margin: 0 auto;
@@ -37,7 +37,7 @@ section {
     max-width: 650px;
     padding: 30px 0px 50px 0px;
     margin: 20px 0;
-    margin-top: 70px;
+    margin-top: 0px;
 }
 section #title {
     border: 0;
@@ -46,7 +46,7 @@ section #title {
     padding: 0 0 5px 0;
 }
 section #title h1 {
-    font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /*font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;*/
     font-weight: normal;
     font-size: 3em;
     text-align: center;
@@ -54,7 +54,7 @@ section #title h1 {
 }
 section #title p {
     color: #d7cfbe;
-    font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /*font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;*/
     font-weight: normal;
     font-size: 18px;
     text-align: center;
@@ -63,15 +63,91 @@ hr {
     border: 0;
     outline: none;
     height: 3px;
-    background: transparent url(../images/hr.gif) center center repeat-x;
+    background: transparent url(https://summersc98.github.io/INST362ProjectWebsite/assets/images/hr.gif) center center repeat-x;
     margin: 0 0 20px;
 } 
-section .credits #text {
-    font-size: 11px;
-    color: white;
+span.credits {
+    font-size: 15px;
+    color: darkgrey;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     text-align: center;
     margin-top: -10px;
 }
+
+#header {
+    z-index: 100;
+    left: 0;
+    top: 0px;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    background: url(https://summersc98.github.io/INST362ProjectWebsite/assets/images/nav-bg.gif) #353535;
+    border-bottom: 4px solid #434343;
+    box-shadow: 0px 1px 3px rgb(0 0 0 / 25%);
+}
+
+#header nav {
+    max-width: 1300px;
+
+    padding: 0 10px;
+    background: blue;
+    margin: 6px auto;
+}
+
+#header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#header nav ul li {
+    font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    list-style: none;
+    display: inline;
+    color: white;
+    line-height: 50px;
+    text-shadow: 0px 1px 0px rgb(0 0 0 / 20%);
+    font-size: 14px;
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left;
+}
+/*
+#header nav ul li.RickRoll {
+    float: left;
+    margin-left: 0px;
+}
+
+#header nav ul li.RickRoll2 {
+    float: left;
+    margin-left: 0px;
+}
 */
+#header nav ul li a {
+    color: white;
+    border: 1px solid #5d910b;
+    background: linear-gradient(#93bd20, #659e10);
+    border-radius: 2px;
+    box-shadow: inset 0px 1px 0px rgb(255 255 255 / 30%), 0px 3px 7px rgb(0 0 0 / 70%);
+    background-color: #93bd20;
+    padding: 10px 12px;
+    margin-top: 6px;
+    line-height: 14px;
+    font-size: 14px;
+    display: inline-block;
+    text-align: center;
+}
+
+#header nav ul li a:hover {
+    background: linear-gradient(#72921a, #5d8f11);
+    background-color: #678517;
+    border: 1px solid #395807;
+}
+
+a {
+    color: #ffcc00;
+    font-weight: 400;
+    text-decoration: none;
+}
