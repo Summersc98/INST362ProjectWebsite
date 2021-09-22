@@ -1,5 +1,3 @@
----
-permalink: /test.html
----
+
 
 # content
