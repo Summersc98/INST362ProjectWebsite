@@ -1,5 +1,5 @@
 # Mission Statement
-## example text
+example text
 # Expected Users
 ## example text
 # Why system is usefull/needed
