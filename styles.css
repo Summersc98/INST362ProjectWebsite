@@ -21,6 +21,40 @@ h1.Research {
     text-align: left;
 }
 
+h2 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: x-large;
+    text-align: center;
+    width: 100%;
+}
+
+h2.Prototyping {
+    text-align: left;
+}
+
+h2.Research {
+    text-align: left;
+}
+
+h3 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: large;
+    text-align: center;
+    width: 100%;
+}
+
+h3.Prototyping {
+    text-align: left;
+}
+
+h3.Research {
+    text-align: left;
+}
+
 p {
 color: whitesmoke;
 font-family: 'Roboto', sans-serif;
@@ -34,6 +68,12 @@ p.Prototyping {
 
 p.Research {
     text-align: left;
+}
+
+li {
+color: whitesmoke;
+font-family: 'Roboto', sans-serif;
+font-weight: 2500;
 }
 
 title {
